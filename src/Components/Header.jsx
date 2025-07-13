@@ -12,7 +12,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="./src/assets/image/logo.svg"
+              src="/image/logo.svg"
               alt="MyStore"
               className="h-10 transition-transform hover:scale-105"
             />

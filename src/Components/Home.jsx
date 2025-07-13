@@ -11,7 +11,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative rounded-xl overflow-hidden h-80 md:h-96 mb-12 group">
         <img
-          src="./src/assets/image/background-i.png"
+          src="/image/background-i.png"
           alt="Welcome to our store"
           className="w-full h-full object-cover brightness-75 rounded-xl transition-transform duration-700 group-hover:scale-105"
         />
