@@ -2,9 +2,15 @@ import React from "react";
 import { useCart } from "../Context/cartContext";
 
 const Cart = () => {
-  const { cartItems, removeFromCart, clearCart } = useCart();
+  const {
+    cartItems,
+    removeFromCart,
+    clearCart,
+    increaseQuantity,
+    decreaseQuantity,
+  } = useCart();
 
-  // Helper function to convert price string to number ("$299.99" → 299.99)
+  // Helper function to convert price string to number
   const parsePrice = (price) => {
     if (typeof price === "number") return price;
     return Number(price.toString().replace(/[^0-9.-]+/g, "")) || 0;
@@ -13,8 +19,8 @@ const Cart = () => {
   // Validate and normalize cart items
   const validatedCartItems = cartItems.map((item) => ({
     ...item,
-    price: parsePrice(item.price), // Convert price to number
-    qty: Math.max(1, Number(item.qty) || 1), // Ensure quantity is at least 1
+    price: parsePrice(item.price),
+    qty: Math.max(1, Number(item.qty) || 1),
     imgSrc: item.imgSrc,
   }));
 
@@ -110,9 +116,52 @@ const Cart = () => {
                   </p>
                 )}
                 <div className="flex items-center mt-2">
-                  <span className="text-sm bg-gray-100 px-3 py-1 rounded-md font-medium">
-                    Qty: {item.qty}
-                  </span>
+                  <div className="flex items-center border border-gray-200 rounded-md overflow-hidden">
+                    <button
+                      className="px-3 py-1 text-gray-600 hover:bg-gray-100 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                      onClick={() => decreaseQuantity(item.id)}
+                      disabled={item.qty <= 1}
+                      aria-label="Decrease quantity"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M20 12H4"
+                        />
+                      </svg>
+                    </button>
+                    <span className="px-3 py-1 text-sm bg-gray-50 font-medium border-x border-gray-200">
+                      {item.qty}
+                    </span>
+                    <button
+                      className="px-3 py-1 text-gray-600 hover:bg-gray-100 transition-colors"
+                      onClick={() => increaseQuantity(item.id)}
+                      aria-label="Increase quantity"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M12 4v16m8-8H4"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
