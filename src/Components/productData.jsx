@@ -8,7 +8,7 @@ export const products = [
     price: 499.99,
     offerPrice: 399.99,
     rating: 4.5,
-    imgSrc: "src/assets/image/apple_earphone_image.png",
+    imgSrc: "/image/apple_earphone_image.png",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const products = [
     price: 429.99,
     offerPrice: 329.99,
     rating: 3,
-    imgSrc: "src/assets/image/bose_headphone_image.png",
+    imgSrc: "/image/bose_headphone_image.png",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const products = [
     price: 899.99,
     offerPrice: 799.99,
     rating: 3.5,
-    imgSrc: "src/assets/image/samsung_s23phone_image.png",
+    imgSrc: "/image/samsung_s23phone_image.png",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const products = [
     price: 399.99,
     offerPrice: 349.99,
     rating: 2,
-    imgSrc: "src/assets/image/venu_watch_image.png",
+    imgSrc: "/image/venu_watch_image.png",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const products = [
     price: 599.99,
     offerPrice: 499.99,
     rating: 4.7,
-    imgSrc: "src/assets/image/playstation_image.png",
+    imgSrc: "/image/playstation_image.png",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const products = [
     price: 4199.99,
     offerPrice: 3899.99,
     rating: 3,
-    imgSrc: "src/assets/image/cannon_camera_image.png",
+    imgSrc: "/image/cannon_camera_image.png",
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const products = [
     price: 2799.99,
     offerPrice: 2499.99,
     rating: 4.5,
-    imgSrc: "src/assets/image/macbook_image.png",
+    imgSrc: "/image/macbook_image.png",
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ export const products = [
     price: 349.99,
     offerPrice: 299.99,
     rating: 3.9,
-    imgSrc: "src/assets/image/sony_airbuds_image.png",
+    imgSrc: "/image/sony_airbuds_image.png",
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const products = [
     price: 1699.99,
     offerPrice: 1499.99,
     rating: 3,
-    imgSrc: "src/assets/image/projector_image.png",
+    imgSrc: "/image/projector_image.png",
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ export const products = [
     price: 2199.99,
     offerPrice: 1999.99,
     rating: 3,
-    imgSrc: "src/assets/image/asus_laptop_image.png",
+    imgSrc: "/image/asus_laptop_image.png",
   },
   {
     id: 11,
@@ -115,7 +115,7 @@ export const products = [
     description: "Noise-Cancellation, Hi-Res Audio",
     rating: 3.9,
     price: "$299.99",
-    imgSrc: "./src/assets/image/sony_airbuds_image.png",
+    imgSrc: "/image/sony_airbuds_image.png",
   },
   {
     id: 12,
@@ -123,7 +123,7 @@ export const products = [
     description: "Advanced Camera, Tensor Chip",
     rating: 4.3,
     price: "$599.99",
-    imgSrc: "./src/assets//image/google_pixel7_image.png",
+    imgSrc: "/image/google_pixel7_image.png",
   },
   {
     id: 13,
@@ -131,7 +131,7 @@ export const products = [
     description: "Compact Drone, 4K Video",
     rating: 3,
     price: "$759.99",
-    imgSrc: "./src/assets//image/dji_mini3_image.png",
+    imgSrc: "/image/dji_mini3_image.png",
   },
   {
     id: 14,
@@ -139,7 +139,7 @@ export const products = [
     description: "Health Metrics, Built-in GPS",
     rating: 2,
     price: "$179.99",
-    imgSrc: "./src/assets//image/fitbit_charge5_image.png",
+    imgSrc: "/image/fitbit_charge5_image.png",
   },
   {
     id: 15,
@@ -147,7 +147,7 @@ export const products = [
     description: "Advanced Health Tracking",
     rating: 4.6,
     price: "$399.99",
-    imgSrc: "./src/assets//image/apple_watch8_image.jpg",
+    imgSrc: "/image/apple_watch8_image.jpg",
   },
   {
     id: 16,
@@ -155,7 +155,7 @@ export const products = [
     description: "7-inch OLED Screen, Portable Gaming",
     rating: 3,
     price: "$349.99",
-    imgSrc: "./src/assets//image/nintendo_switch_image.png",
+    imgSrc: "/image/nintendo_switch_image.png",
   },
   {
     id: 17,
@@ -163,7 +163,7 @@ export const products = [
     description: "Portable Bluetooth Speaker",
     rating: 3.2,
     price: "$129.99",
-    imgSrc: "./src/assets//image/jbl_flip6_image.png",
+    imgSrc: "/image/jbl_flip6_image.png",
   },
   {
     id: 18,
@@ -171,7 +171,7 @@ export const products = [
     description: "Advanced Wireless Mouse",
     rating: 2.4,
     price: "$99.99",
-    imgSrc: "./src/assets//image/logitech_mx_master3_image.png",
+    imgSrc: "/image/logitech_mx_master3_image.png",
   },
   {
     id: 19,
@@ -179,7 +179,7 @@ export const products = [
     description: "Waterproof, High-resolution Display",
     rating: 3.2,
     price: "$139.99",
-    imgSrc: "./src/assets//image/kindle_paperwhite_image.png",
+    imgSrc: "/image/kindle_paperwhite_image.png",
   },
   {
     id: 20,
@@ -187,7 +187,7 @@ export const products = [
     description: "Mechanical Gaming Keyboard",
     rating: 1.4,
     price: "$169.99",
-    imgSrc: "./src/assets//image/razer_blackwidow_image.png",
+    imgSrc: "/image/razer_blackwidow_image.png",
   },
   {
     id: 21,
@@ -195,6 +195,6 @@ export const products = [
     description: "11-inch Display, S Pen Included",
     rating: 3,
     price: "$699.99",
-    imgSrc: "./src/assets//image/samsung_tab_s8_image.png",
+    imgSrc: "/image/samsung_tab_s8_image.png",
   },
 ];
