@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import ScrollToTop from "@/components/ScrollToTop";
+import Header from "../../Components/Header";
+import Footer from "../../Components/Footer";
+import ScrollToTop from "../../Components/ScrollToTop";
 import { CartProvider } from "../Context/cartContext";
 import "./globals.css";
 
