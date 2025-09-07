@@ -1,7 +1,6 @@
-// app/page.jsx
-"use client"; // needed because your Home uses hooks like useState, useEffect, useCart
+"use client";
 
-import Home from "../../Components/Home";
+import Home from "../components/Home";
 
 export default function Page() {
   return <Home />;

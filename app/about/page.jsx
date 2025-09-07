@@ -1,5 +1,5 @@
 "use client";
-import AboutUs from "@/Components/AboutUs";
+import AboutUs from "@/components/AboutUs";
 export default function About() {
   return (
     <div>
