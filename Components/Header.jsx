@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useCart } from "@/Context/cartContext";
+import { useCart } from "@/context/cartContext";
 
 const Header = () => {
   const { cartItems } = useCart();

@@ -4,7 +4,7 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import { products } from "./productData";
-import { useCart } from "../Context/cartContext";
+import { useCart } from "../context/cartContext";
 import FeaturedProducts from "./FeaturedProducts";
 import NewsletterSignup from "./NewLetterSignup";
 
