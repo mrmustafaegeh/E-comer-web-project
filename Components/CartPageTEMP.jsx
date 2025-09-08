@@ -1,6 +1,6 @@
 "use client";
 
-import { useCart } from "../Context/cartContext";
+import { useCart } from "../context/cartContext";
 
 const Cart = () => {
   const {
