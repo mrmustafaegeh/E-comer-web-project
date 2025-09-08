@@ -1,6 +1,6 @@
 "use client";
-import CartPage from "../components/CartPage.jsx";
-export default function CartPage() {
+import CartPage from "../../components/CartPage";
+export default function Cart() {
   return (
     <div>
       <CartPage />
