@@ -1,5 +1,5 @@
 "use client";
-import FormPage from "../components/Form/FormPage";
+import FormPage from "../components/Form/FormPage.jsx";
 
 export default function Form() {
   return (

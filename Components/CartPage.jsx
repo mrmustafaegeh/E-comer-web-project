@@ -2,7 +2,7 @@
 
 import { useCart } from "../context/cartContext";
 
-const Cart = () => {
+const CartPage = () => {
   const {
     cartItems,
     removeFromCart,
@@ -264,4 +264,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartPage;

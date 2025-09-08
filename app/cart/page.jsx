@@ -1,9 +1,9 @@
 "use client";
-import Cart from "../components/CartPage";
+import CartPage from "../components/CartPage.jsx";
 export default function CartPage() {
   return (
     <div>
-      <Cart />
+      <CartPage />
     </div>
   );
 }
